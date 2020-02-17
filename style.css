@@ -175,3 +175,40 @@ a {
     background-size: cover;
     background-position: center;
 }
+.words {
+    color: white;
+    background-color: rgb(17, 158, 244);
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    font-size: 30pt;
+    border-radius: 30px;
+}
+.centers {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+p {
+    margin: 0px;
+}
+.textblue {
+    color: rgb(17, 158, 244);
+    font-size: 40pt;
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+
+}
+.textbox {
+    color:  rgb(17, 158, 244);
+    border-style: solid;
+    border-color:  rgb(17, 158, 244);
+    border-width: 2.5px;
+    font-size: 20pt;
+    margin-top: 20px;
+    width: 700px;
+    justify-content: center;
+    padding: 10px;
+}
