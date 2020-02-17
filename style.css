@@ -1,0 +1,148 @@
+.contact {
+    text-decoration: unset;
+    color: black;
+    border: 5px solid;
+    border-image-source: linear-gradient(45deg, #008CE5, #005B97 80%);
+    border-image-slice: 1;
+    padding: 3px 25px;
+    height: 40px;
+    margin-top: 27px;
+}
+
+.contact:hover {
+    font-weight: 800;
+    background: -webkit-linear-gradient(45deg, #008CE5, #005B97 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px;
+}
+
+header {
+    height: 75px;
+    width: 100%;
+    direction: ltr;
+}
+
+body {
+    direction: rtl;
+    margin: unset;
+    font-family: 'Almarai', sans-serif;
+}
+
+img {
+    margin-top: 20px !important;
+    margin-bottom: -12px;
+}
+
+.padd {
+    padding-top: 10px;
+}
+
+.list {
+    height: 70px;
+    background-color: #165C7F;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.text {
+    margin-left: 10px;
+}
+
+.lists {
+    height: 100%;
+    background-color: #165C7F;
+    width: 120px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.lists:hover {
+    background-color: #27A3C9;
+}
+
+.tex {
+    text-decoration: unset;
+    color: white;
+}
+
+.pic {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(17, 158, 244, 0.75);
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+    margin: 10px 40px 0px 0px;
+}
+
+h3:first-child {
+    margin-top: -40px;
+    margin-right: 50px;
+    color: white;
+}
+
+h3 {
+    color: white;
+    margin-right: 50px;
+}
+
+.buttons {
+    margin-right: 50px;
+    width: 150px;
+    color: white;
+}
+
+a {
+    text-decoration: unset;
+}
+
+.buttonback {
+    width: 100%;
+    height: 100%;
+    background-color: #119EF4;
+    opacity: 75%;
+}
+
+.buttonback:hover {
+    opacity: 100%;
+}
+
+.card {
+    width: 290px;
+    height: 290px;
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(17, 158, 244);
+    border-width: 2.5px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: -100px;
+}
+
+.contacts {
+    position: absolute;
+    left: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.con {
+    display: flex;
+    align-items: baseline;
+    width: 200px;
+}
+.margins {
+    margin-top: 24px;
+
+}
