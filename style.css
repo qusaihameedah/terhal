@@ -65,6 +65,8 @@ img {
 .tex {
     text-decoration: unset;
     color: white;
+    width: 100%;
+    height: 100%;
 }
 
 .pic {
@@ -111,15 +113,6 @@ a {
     opacity: 100%;
 }
 
-.card {
-    width: 290px;
-    height: 290px;
-    background-color: white;
-    border-style: solid;
-    border-color: rgb(17, 158, 244);
-    border-width: 2.5px;
-}
-
 .cards {
     display: flex;
     justify-content: space-between;
@@ -142,7 +135,43 @@ a {
     align-items: baseline;
     width: 200px;
 }
+
 .margins {
     margin-top: 24px;
+}
 
+.card1 {
+    width: 290px;
+    height: 290px;
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(17, 158, 244);
+    border-width: 2.5px;
+    background-image: url(fanadeq.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.card2 {
+    width: 290px;
+    height: 290px;
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(17, 158, 244);
+    border-width: 2.5px;
+    background-image: url(athare.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.card3 {
+    width: 290px;
+    height: 290px;
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(17, 158, 244);
+    border-width: 2.5px;
+    background-image: url(dowal.png);
+    background-size: cover;
+    background-position: center;
 }
