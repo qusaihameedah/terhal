@@ -29,13 +29,13 @@ body {
     font-family: 'Almarai', sans-serif;
 }
 
-img {
+.img-margin {
     margin-top: 20px !important;
     margin-bottom: -12px;
 }
 
 .padd {
-    padding-top: 10px;
+    padding-top: 25px;
 }
 
 .list {
@@ -175,6 +175,7 @@ a {
     background-size: cover;
     background-position: center;
 }
+
 .words {
     color: white;
     background-color: rgb(17, 158, 244);
@@ -182,33 +183,100 @@ a {
     height: 60px;
     text-align: center;
     font-size: 30pt;
-    border-radius: 30px;
+    border-radius: 40px;
 }
+
 .centers {
     display: flex;
     justify-content: space-between;
     justify-content: space-around;
     margin-top: 30px;
 }
+
 p {
     margin: 0px;
 }
+
 .textblue {
     color: rgb(17, 158, 244);
     font-size: 40pt;
     width: 100%;
     text-align: center;
     margin-top: 200px;
-
 }
+
 .textbox {
-    color:  rgb(17, 158, 244);
+    color: rgb(17, 158, 244);
     border-style: solid;
-    border-color:  rgb(17, 158, 244);
+    border-color: rgb(17, 158, 244);
     border-width: 2.5px;
     font-size: 20pt;
     margin-top: 20px;
     width: 700px;
     justify-content: center;
-    padding: 10px;
+    padding: 20px;
+}
+
+.sign {
+    background-color: rgb(17, 158, 244);
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: -50px    ;
+}
+
+.inputs {
+    background-color: white;
+    border-radius: 30px;
+    border-style: unset;
+    width: 700px;
+    height: 67px;
+    margin: 17px 0px;
+    margin-right: 50px;
+    padding-right: 13px;
+    font-size: 20px;
+    font-family: 'Almarai', sans-serif;
+
+}
+.thebtn {
+    display: flex;
+    width: 100% ;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.law {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: rgb(17, 158, 244);
+    font-size: 19px;
+    align-items: center;
+}
+.btn {
+
+border-style: solid;
+border-color: white;
+border-width: 3px;
+background: unset;
+height: 67px;
+font-size: 20px;
+font-family: 'Almarai', sans-serif;
+color: white;
+border-radius: 40px;
+text-align: center;
+padding : 5px 15px ;
+}
+.btn:hover {
+    border-color: darkgray;
+    color: darkgray;
+}
+.maright {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-right: -50px;
 }
